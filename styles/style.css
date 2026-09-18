@@ -286,7 +286,7 @@ ol {
   line-height: normal;
   appearance: none;
   cursor: pointer;
-   height: 34px;
+  height: 34px;
 }
 
 .search-form__submit-button {

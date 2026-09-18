@@ -86,15 +86,11 @@ ol {
   width: 711px;
 }
 
-.content__list-container {
-  height: 534px;
-  overflow-y: auto;
-}
-
 .result__video-container {
   height: 386px;
   width: 711px;
   margin-bottom: 16px;
+  position: relative;
 }
 
 .result__video {
@@ -170,6 +166,8 @@ ol {
 .content__card-link {
   text-decoration: none;
   color: #FFF;
+  display: block;
+  cursor: pointer;
 }
 
 .content__video-card-title {
@@ -309,11 +307,6 @@ ol {
   background-color: #545050;
 }
 
-.content__card-link {
-  display: block;
-  cursor: pointer;
-}
-
 .content__card-link_current {
   background-color: #545050;
 }
@@ -339,6 +332,3 @@ ol {
   outline: 1px solid #FFF;
 }
 
-.result__video-container {
-  position: relative;
-}

@@ -116,6 +116,9 @@ ol {
   display: flex;
   flex-direction: column;
   gap: 30px;
+  position: relative;
+  block-size: 298px;
+  overflow: auto;
 }
 
 .content__video-card {
@@ -338,10 +341,4 @@ ol {
 
 .result__video-container {
   position: relative;
-}
-
-.content__list-container {
-  position: relative;
-  block-size: 298px;
-  overflow: auto;
 }
